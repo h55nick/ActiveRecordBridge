@@ -1,6 +1,11 @@
 #ActiveRecordBridge
 
+> The goal of this project is to allow symantic relationships between multiple orms/databases.
+> While it is generally not advised to use multiple storage methods if it can be avoided this handles
+> the case when it can't be avoided or you have no choice.
 
+Currently Supported ORMS:
+* Mongoid
 
 ## EXAMPLES
 
