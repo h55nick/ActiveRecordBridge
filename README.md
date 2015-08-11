@@ -4,8 +4,11 @@
 > While it is generally not advised to use multiple storage methods if it can be avoided this handles
 > the case when it can't be avoided or you have no choice.
 
-Currently Supported ORMS:
+##Currently Supported ORMS:
 * Mongoid
+
+###Current Status:
+[![Build Status](https://travis-ci.org/h55nick/ActiveRecordBridge.svg)](https://travis-ci.org/h55nick/ActiveRecordBridge)
 
 ## EXAMPLES
 
