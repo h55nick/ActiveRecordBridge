@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+  - 2.2.1
+services:
+  - mongodb
+  - postgresql
+gemfile:
+  - Gemfile
+
+cache: bundler
+
+notifications:
+  hipchat: b16160652b4266b7f252f045082127@Github
+
+before_script:
+  - bundle exec rake db:create
+
+script:
+  - bundle exec rspec spec
+
+# http://docs.travis-ci.com/user/database-setup/
+addons:
+  postgresql: '9.4'
