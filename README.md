@@ -18,7 +18,7 @@ Mongoid Classes:
 ```ruby
 class Rule
   include Mongoid::Document
-  include Mongoid::ActiveRecordBridge
+  include ActiveRecordBridge::Mongoid
 #   ...
   belongs_to_record :property
   belongs_to_record :updated_by, class_name: 'User'
